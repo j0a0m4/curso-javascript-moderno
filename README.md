@@ -2,6 +2,7 @@
 
 ## Ambiente
 - VSCode
+- Node
 - Extensões
 - Integração GitHub
 - Prettier
