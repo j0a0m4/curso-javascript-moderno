@@ -2,7 +2,7 @@
 
 ## Ambiente
 - VSCode
-- Node
+- NodeJS
 - Extensões
 - Integração GitHub
 - Prettier
@@ -20,7 +20,7 @@
 
 ## Async
 - Promises
-- fetch
+- AJAX com `fetch`
 - async/await
 
 ## Programação Declarativa e Funcional
