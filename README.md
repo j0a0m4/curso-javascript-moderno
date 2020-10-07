@@ -4,9 +4,8 @@
 
 - NodeJS
 - VSCode
-- Extensões
-- Integração GitHub
 - Prettier
+- Integração Git
 
 ## Estrutura de Dados
 

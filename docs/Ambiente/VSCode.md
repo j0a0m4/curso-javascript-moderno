@@ -11,7 +11,7 @@ Siga as instruções da documentação do editor.
 
 ## Idioma
 
-Existe a possibilidade de configurar o editor em [:brazil:português](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-pt-BR).
+Existe a possibilidade de configurar o editor em :brazil:[português](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-pt-BR).
 
 Acredito ser de maior valor usar as ferramentas em inglês, devido a maior facilidade de encontrar informações nessa língua. Além disso, é muito comum não ter uma tradução adequada para certas funcionalidades. Acredito que um nível _técnico_ da língua seja altamente desejável. Principalmente, a habilidade de leitura e escuta, pois permite acesso a uma gama de conteúdos. Aprender inglês _básico_ é uma habilidade relativamente importante de se adquirir com o tempo. Os erros da linguagem de programação vão ser em inglês, ao pesquisar o erro a resposta para o seu problema possívelmente estará em inglês também.
 
@@ -79,8 +79,10 @@ A escolha de fontes costumam gerar muitas discussões, por ser uma questão de g
 Para isso, recomendo a fonte `Fira Code` por ser gratuita e bastante popular. É possível seguir as intruções no [repositório](https://github.com/tonsky/FiraCode). Após instalação, é preciso alterar nas configurações do editor.
 
 ```json
-    "editor.fontFamily": "'Fira Code Retina', 'Droid Sans Mono'",
-    "editor.fontLigatures": true,
+{
+  "editor.fontFamily": "'Fira Code Retina', 'Droid Sans Mono'",
+  "editor.fontLigatures": true
+}
 ```
 
 A fonte `Droid Sans Mono` vai ser escolhida casa haja algum problema com a `Fira Code`. Esse recurso é chamado de _fallback_.
