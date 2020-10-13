@@ -95,6 +95,32 @@ const age = 20
 const isAllowed = age >= 18 && age <= 56
 ```
 
+## Prettier
+
+Formatação de código é essencial para escrevermos código estilisticamente coeso, facilitando a leitura e manutenção. É indispensável o uso de algum formatador para atingir esses objetivos. No caso do JavaScript, a opção recomendada é o _Prettier_. Para isso, é necessário [instalar a extensão](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).  
+É possível configurar o editor para formatar o código sempre que salvarmos o arquivo. Isso vai automatizar esse processo repetitivo que pode inclusive ser esquecido.  
+O _Prettier_ permite uma [configuração customizada](https://prettier.io/docs/en/options.html) de acordo com o padrão desejado do desenvolvedor ou da equipe. É usual configurarmos o VSCode para apenas formatar o código ao salvar, se esse arquivo de configuração estiver presente.
+
+```json
+{
+  "prettier.requireConfig": true,
+  "editor.formatOnSave": true
+}
+```
+
+Nesse caso, o editor só ira formatar se na raíz do diretório existir um arquivo de configuração do prettier. Esse arquivo é um arquivo `JSON` com o nome `.prettierrc`. Existem diversos [parâmetros](https://prettier.io/docs/en/configuration.html) passíveis de ajustes, e também outras maneiras de configurar essas preferências.
+
+```json
+{
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true
+}
+```
+
 ## :brazil: Glosário e Tradução
 
 - **Distro** é a abreviação de _distribution_, ou seja, distribuição. É usada para se referir a que tipo de _Linux_ o usuário está usando. (Ex.: Debian, Ubuntu, Fedora, etc)
