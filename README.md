@@ -1,11 +1,31 @@
 # :milky_way: Curso JavaScript Moderno
 
-## Ambiente
+## Ambiente e Instalação
 
 - NodeJS
+- Git Bash
 - VSCode
-- Prettier
-- Integração Git
+  - Atalhos
+  - Temas
+  - Fontes
+  - Prettier
+
+## Controle de Versão
+
+- Git Básico
+  - `init`
+  - `add`
+  - `commit`
+  - `push`
+  - `pull`
+- Commit Semântico
+  - feat
+  - refactor
+  - test
+  - fix
+  - chore
+  - style
+- Versionamento Semântico
 
 ## Estrutura de Dados
 
@@ -39,6 +59,7 @@
 
 ### Looping
 
+- `for`
 - `for ... of`
 - `for ... in`
 
