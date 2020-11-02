@@ -117,7 +117,8 @@ Nesse caso, o editor só ira formatar se na raíz do diretório existir um arqui
   "tabWidth": 2,
   "useTabs": false,
   "semi": false,
-  "singleQuote": true
+  "singleQuote": true,
+  "arrowParens": "avoid"
 }
 ```
 
